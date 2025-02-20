@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>PixelCoreGaming</title>
+    <link rel="icon" type="image/x-icon" href="../imagenes/logo/icon.ico">
+</head>
+<body>
+    <header>
+        <div class="barra-superior">
+            <div class="logo">
+                <img src="../imagenes/logo/logo.png" alt="logo">
+                <p>Pixel Core Gaming</p>
+            </div>
+            <div>
+                <form action="" class="buscador-container">
+                    <input type="text" name="buscador" id="buscador" placeholder="Buscar">
+                    <input type="submit" value="" class="boton-buscar">
+                </form>
+            </div>
+            <div class="container">
+                <img src="../imagenes/iconos/carrito.png" alt="carrito">
+                <img src="../imagenes/iconos/usuario.png" alt="login">
+                <a href="./login.html">Iniciar Sesion</a>
+            </div>
+        </div>
+        <nav class="navegation-bar">
+            <div></div>
+            <a href="./index.html">Inicio</a>
+            <a href="./index.html">Ofertas</a>
+            <div class="dropdown">
+                <a href="#" class="dropbutton">Productos</a>
+                <div class="dropdown-content">
+                    <a href="./componentes.html">Componentes de PC</a>
+                    <a href="./perifericos.html">Periféricos</a>
+                    <a href="./consolas.html">Consolas y Videojuegos</a>
+                </div>
+            </div>
+            <a href="./contacto.html">Contacto</a>
+            <div></div>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="login">
+            <div class="fondo-formulario">
+                <form action="" class="login">
+                    <h2 class="subtitle-center">Iniciar Sesion</h2>
+                    <label for="email" class="email">
+                        <div>
+                            <span>Correo Electronico</span>
+                            <span>*</span>
+                        </div>
+                        <input type="email" name="email" id="email" class="input-container" required>
+                    </label>
+                    <label for="password" class="password">
+                        <div>
+                            <span>Contraseña</span>
+                            <span>*</span>
+                        </div>
+                        <input type="password" name="password" id="password" class="input-container" required>
+                    </label>
+                    <a href="./reset-password.html" class="forgot-password">¿olvidaste tu contraseña?</a>
+                    <div class="submit">
+                        <input type="submit" value="Iniciar Sesion">
+                        <p>¿Aún no tienes cuenta?</p>
+                        <a href="./register.html">Crear Cuenta</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <p>Copyright © 2025 - PixelCoreGaming - Todos los derechos reservados.</p>
+            <div class="redes">
+            <p>Siguenos en:</p>
+                <img src="../imagenes/iconos/facebook.png" alt="">
+                <img src="../imagenes/iconos/instagram.png" alt="">
+                <img src="../imagenes/iconos/youtube.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
