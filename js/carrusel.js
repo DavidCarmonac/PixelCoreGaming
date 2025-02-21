@@ -7,6 +7,6 @@ function carrusel()
         c=1;
     }
        
-    document.getElementById("banner").setAttribute("src", "../imagenes/banners/imagen"+ c +".jpg");
+    document.getElementById("banner").setAttribute("src", "./imagenes/banners/imagen"+ c +".jpg");
     setTimeout("carrusel()", 3500);
 }
